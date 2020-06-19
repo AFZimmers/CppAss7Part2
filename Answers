@@ -1,0 +1,21 @@
+Question 1:
+The minimum number of perceptrons required is 3.
+The two input values are fed into the perceptrons NAND and OR which make up the first layer, then there outputs are fed into the AND perceptron
+which will give us the answer we wanting.
+
+Question 2:
+Each proceptron was trained with 4 training examples so is 12 in total.
+
+Question 3:
+They are:
+0.763145
+0.802184
+
+Question 4:
+0.752632
+
+Question 5:
+Using (target-output)^2:
+0.15416
+If I added the scalar of 0.5 so 0.5(target-output)^2 which isnt needed for this example then the answer is:
+0.07708
